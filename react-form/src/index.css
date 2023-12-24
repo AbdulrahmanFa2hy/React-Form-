@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #4d014d;
+  --secondary-color: #663399;
+  --primary-form-bg: #fff;
+  --primary-body-bg: linear-gradient(to bottom, #9a2d8c, #4d014d);
+}
+.dark {
+  --primary-color: #fff;
+  --secondary-color: #d6b5f7;
+  --primary-form-bg: #4d014d;
+  --primary-body-bg: linear-gradient(to right, #4d014d, #230123);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: var(--primary-body-bg);
+  /* background: linear-gradient(to right, red, yellow); */
+}

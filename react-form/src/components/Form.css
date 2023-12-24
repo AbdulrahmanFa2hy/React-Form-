@@ -1,0 +1,32 @@
+.container {
+  background-color: var(--primary-form-bg);
+  border-radius: 8px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-form-bg);
+  width: 400px;
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+.form-title {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+button {
+  background-color: var(--secondary-color);
+  color: var(--primary-form-bg);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+button:hover {
+  transform: scale(1.03);
+}
